@@ -1,1 +1,7 @@
-mBART model documentation : https://huggingface.co/docs/transformers/model_doc/mbart
+The MBart model was presented in Multilingual Denoising Pre-training for Neural Machine Translation by Yinhan Liu, Jiatao Gu, Naman Goyal, Xian Li, Sergey Edunov Marjan Ghazvininejad, Mike Lewis, Luke Zettlemoyer.
+
+According to the abstract, MBART is a sequence-to-sequence denoising auto-encoder pretrained on large-scale monolingual corpora in many languages using the BART objective. mBART is one of the first methods for pretraining a complete sequence-to-sequence model by denoising full texts in multiple languages, while previous approaches have focused only on the encoder, decoder, or reconstructing parts of the text.
+
+mBART is trained to understand and generate text in multiple languages, making it a valuable tool for multilingual natural language processing tasks. It's trained on large-scale multilingual datasets and can effectively transfer knowledge across different languages.
+
+The main advantage of mBART is its ability to handle multiple languages without the need for language-specific models or fine-tuning. It achieves this by utilizing a shared vocabulary and a language-agnostic tokenization scheme, enabling it to process text in various languages seamlessly.
